@@ -76,3 +76,7 @@ Glycan structures are represented as sequences of constituent antennae:
 ## Training Data
 
 Training data are available on Zenodo: 
+
+## Funding
+
+This work was supported by funding from NHLBI (HL103411)
