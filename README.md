@@ -73,9 +73,16 @@ Glycan structures are represented as sequences of constituent antennae:
 | GlycoBART (top-5) | 95.5% | 95.5% | 93.3% | 93.1% |
 | CandyCrunch | 94.1% | 94.0% | 91.2% | 90.3% |
 
+## Example
+
+### `Example_Inference.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1otVLVDQfLyldtIFcBxGnwVf9PeeTnJ17#scrollTo=aio33zrJBGsS)
+
+The Google colab notebook shows an example inference that can be modified for specific use cases.  
+The example file used in the notebook can be found in `examples/`. 
+
 ## Training Data
 
-Training data are available on Zenodo: 
+Training data are available on Zenodo under  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15741423.svg)](https://doi.org/10.5281/zenodo.15741423).
 
 ## Funding
 
