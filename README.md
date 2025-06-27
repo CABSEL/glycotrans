@@ -78,7 +78,7 @@ Glycan structures are represented as sequences of constituent antennae:
 ### `Example_Inference.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1otVLVDQfLyldtIFcBxGnwVf9PeeTnJ17?usp=sharing)
 
 The Google colab notebook shows an example inference that can be modified for specific use cases.  
-The example file used in the notebook can be found in `examples/`. 
+The example file used in the notebook can be found at [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Cw2sPFwBrYifYP2_U-7w3O42JvwNfypk/view?usp=share_link) 
 
 ## Data and Models
 
