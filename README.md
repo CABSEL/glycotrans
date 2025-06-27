@@ -80,9 +80,11 @@ Glycan structures are represented as sequences of constituent antennae:
 The Google colab notebook shows an example inference that can be modified for specific use cases.  
 The example file used in the notebook can be found in `examples/`. 
 
-## Training Data
+## Data and Models
 
 Training data are available on Zenodo under  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15741423.svg)](https://doi.org/10.5281/zenodo.15741423).
+
+The full version of GlycoBERT and GlycoBART are available on HuggingFace [![Sign in with Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/sign-in-with-huggingface-sm.svg)](https://huggingface.co/CABSEL).
 
 ## Funding
 
