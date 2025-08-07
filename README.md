@@ -2,6 +2,8 @@
 
 A  repository for transformer-based models for glycan structure prediction from mass spectrometry data. Presently, the repository includes two models: **GlycoBERT** and **GlycoBART**.
 
+(Ejas Althaf Abtheen, Arun Singh, Shyam Sriram, Changyou Chen, Sriram Neelamegham, Rudiyanto Gunawan bioRxiv 2025.07.02.662857; doi: https://doi.org/10.1101/2025.07.02.662857)
+
 ## Overview
 
 glycoTrans introduces state-of-the-art transformer architectures to glycomics, enhancing how we predict glycan structures from tandem mass spectrometry (MS/MS) data. By treating mass spectra and glycan structures as sequences, called MS and Glycan sentence, respectively, the models are trained to capture complex contextual relationships in spectral data. 
@@ -10,6 +12,18 @@ glycoTrans introduces state-of-the-art transformer architectures to glycomics, e
 
 - **GlycoBERT**: A BERT-based sequence classifier for high-accuracy glycan structure prediction
 - **GlycoBART**: A BART-based generative model capable of de novo glycan structure inference
+
+## Installation
+
+### From PyPI
+```bash
+pip install glycotrans
+```
+
+### From GitHub
+```bash
+pip install git+https://github.com/CABSEL/glycotrans.git
+```
 
 ## Features
 
@@ -75,7 +89,7 @@ Glycan structures are represented as sequences of constituent antennae:
 
 ## Example
 
-### `Example_Inference.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1otVLVDQfLyldtIFcBxGnwVf9PeeTnJ17?usp=sharing)
+### `Example_Inference.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KEPMZ3dlQ4TeExTqsgXJ4NCeHuEp6dQn)
 
 The Google colab notebook shows an example inference that can be modified for specific use cases.  
 The example file used in the notebook can be found at [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Cw2sPFwBrYifYP2_U-7w3O42JvwNfypk/view?usp=share_link) 
