@@ -1,4 +1,7 @@
-# Usage: python3 TrainGlycoBartFull.py save_dir num_encoder_layers num_decoder_layers num_attention_heads dim_model batch_size num_epochs 
+# Usage: In the command terminal, navigate to the folder in which the TrainGlycoBartFull.py is saved
+# Run the below line in the command terminal by specifying the required model parameters
+# python TrainGlycoBartFull.py save_dir num_encoder_layers num_decoder_layers num_attention_heads dim_model batch_size num_epochs 
+# The model will be saved in the save_dir specified in the command terminal
 
 import sys
 import time
