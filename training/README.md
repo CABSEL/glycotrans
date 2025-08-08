@@ -1,4 +1,4 @@
-## GlycoBERT & GlycoBART Training Pipeline
+## glycoTrans Training Pipeline
 
 This repository provides code and instructions for training **GlycoBERT** and **GlycoBART** models for glycan analysis. Each model has its own folder (`glycobert` and `glycobart`), and both follow the same three-step workflow:
 
