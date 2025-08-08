@@ -33,12 +33,12 @@ print(f"num_epochs = {num_epochs}")
 saveDir = save_dir                                 # Trained models will be saved in the save_dir mentioned in the command line
 print(f"Output will be saved in = {saveDir}")
 
-# Initiate tokenizer
-vocab_path= '../../glycotrans/vocab_glycobart.json'  # Specify the path where the vocab_glycobart.json file was saved
-
+# Specify the path where the vocab_glycobart.txt file was saved from PrepareTensors.ipynb
+vocab_txt = 'vocab_glycobart.txt' 
+with open(vocab_txt, 'r') as file:
+    vocab_list = file.read().splitlines()
 # Use the vocabulary to create a tokenizer
-tokenizer = GlycoBartTokenizer.load_vocabulary(path=vocab_path)
-vocab_size = tokenizer.vocab_size
+tokenizer = GlycoBartTokenizer(vocab_list, max_seq_length=512)
 
 # Load input and output tokens
 input_corpus_path = 'input_corpus.pt'              # Specify the path where input_corpus.pt file was saved from PrepareTensors.ipynb
