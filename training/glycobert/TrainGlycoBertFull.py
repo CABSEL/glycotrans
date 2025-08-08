@@ -35,7 +35,7 @@ print(f"num_epochs = {num_epochs}")
 saveDir = save_dir                     # Trained models will be saved in the save_dir mentioned in the command line
 print(f"Output will be saved in = {saveDir}")
 
-# Specify the path where the vocab_glycobert.txt file wass saved from PrepareTensors.ipynb
+# Specify the path where the vocab_glycobert.txt file was saved from PrepareTensors.ipynb
 vocab_txt = 'vocab_glycobert.txt' 
 with open(vocab_txt, 'r') as file:
     vocab_list = file.read().splitlines()
