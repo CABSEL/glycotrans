@@ -25,6 +25,19 @@ pip install glycotrans
 pip install git+https://github.com/CABSEL/glycotrans.git
 ```
 
+## Tandem MS/MS Analysis
+
+#### `glycotrans_inference.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KEPMZ3dlQ4TeExTqsgXJ4NCeHuEp6dQn)
+
+The glycoTrans Google colab notebook provides a user-friendly interface for analyzing tandem MS/MS using GlycoBERT or GlycoBART.  
+The example MS/MS data file used in the glycotrans notebook can be downloaded from [![here.](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Cw2sPFwBrYifYP2_U-7w3O42JvwNfypk/view?usp=share_link) 
+
+## Data and Models
+
+Training data are available on Zenodo  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15741423.svg)](https://doi.org/10.5281/zenodo.15741423).
+
+The full version of GlycoBERT and GlycoBART are available on HuggingFace [![Sign in with Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/sign-in-with-huggingface-sm.svg)](https://huggingface.co/CABSEL).
+
 ## Features
 
 ###  **Superior Performance**
@@ -87,19 +100,7 @@ Glycan structures are represented as sequences of constituent antennae:
 | GlycoBART (top-5) | 95.5% | 95.5% | 93.3% | 93.1% |
 | CandyCrunch | 94.1% | 94.0% | 91.2% | 90.3% |
 
-## Example
-
-### `Example_Inference.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KEPMZ3dlQ4TeExTqsgXJ4NCeHuEp6dQn)
-
-The Google colab notebook shows an example inference that can be modified for specific use cases.  
-The example file used in the notebook can be found at [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Cw2sPFwBrYifYP2_U-7w3O42JvwNfypk/view?usp=share_link) 
-
-## Data and Models
-
-Training data are available on Zenodo under  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15741423.svg)](https://doi.org/10.5281/zenodo.15741423).
-
-The full version of GlycoBERT and GlycoBART are available on HuggingFace [![Sign in with Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/sign-in-with-huggingface-sm.svg)](https://huggingface.co/CABSEL).
-
 ## Funding
 
-This work was supported by funding from NHLBI (HL103411)
+This work was supported by funding from National Heart, Lung, and Blood Institute (grant HL103411).
+
