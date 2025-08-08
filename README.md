@@ -1,4 +1,4 @@
-# glycoTrans
+# ![alt text](logo.png) glycoTrans 
 
 A  repository for transformer-based models for glycan structure prediction from mass spectrometry data. Presently, the repository includes two models: **GlycoBERT** and **GlycoBART**.
 
@@ -101,5 +101,6 @@ Glycan structures are represented as sequences of constituent antennae:
 ## Funding
 
 This work was supported by funding from National Heart, Lung, and Blood Institute (grant HL103411).
+
 
 
