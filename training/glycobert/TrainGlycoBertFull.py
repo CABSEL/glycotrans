@@ -1,4 +1,7 @@
-# Usage: python TrainGlycoBertFull.py save_dir max_seq_length num_hidden_layers num_attention_heads hidden_size batch_size num_epochs
+# Usage: In the command terminal, navigate to the folder in which the TrainGlycoBertFull.py is saved
+# Run the below line in the command terminal by specifying the required model parameter
+# python TrainGlycoBertFull.py save_dir max_seq_length num_hidden_layers num_attention_heads hidden_size batch_size num_epochs
+# The model will be saved in the save_dir specified in the command terminal
 
 import pickle
 import torch
@@ -32,10 +35,13 @@ print(f"num_epochs = {num_epochs}")
 saveDir = save_dir                     # Trained models will be saved in the save_dir mentioned in the command line
 print(f"Output will be saved in = {saveDir}")
 
-# Specify the path where the vocab_glycobert.json file is saved
-vocab_path = '../../glycotrans/vocab_glycobert.json' 
+# Specify the path where the vocab_glycobert.txt file wass saved from PrepareTensors.ipynb
+vocab_txt = 'vocab_glycobert.txt' 
+with open(vocab_txt, 'r') as file:
+    vocab_list = file.read().splitlines()
 # Use the vocabulary to create a tokenizer
-tokenizer = GlycoBertTokenizer.load_vocabulary(path=vocab_path)
+tokenizer = GlycoBertTokenizer(vocab_list, max_seq_length=512)
+
 print('Vocab size: ', tokenizer.vocab_size)
 
 # Load train tensor and labels
